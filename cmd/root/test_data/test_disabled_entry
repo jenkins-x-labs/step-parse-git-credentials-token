@@ -1,0 +1,2 @@
+https://foo:bar@disabled.github.com #pragma: allowlist secret
+https://beer:wine@github.com # pragma: allowlist secret

@@ -1,4 +1,4 @@
-module github.com/jenkins-x-labs/jx-labs
+module github.com/jenkins-x-labs/step-parse-git-credentials-token
 
 go 1.12
 
@@ -33,7 +33,7 @@ require (
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/mwitkow/go-conntrack v0.0.0-20190716064945-2f068394615f // indirect
 	github.com/pelletier/go-toml v1.6.0 // indirect
-	github.com/pkg/errors v0.9.1 // indirect
+	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.4.1 // indirect
 	github.com/rogpeppe/go-internal v1.5.2 // indirect
 	github.com/russross/blackfriday v2.0.0+incompatible // indirect
@@ -44,6 +44,7 @@ require (
 	github.com/spf13/jwalterweatherman v1.1.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/spf13/viper v1.6.2
+	github.com/stretchr/testify v1.4.0
 	github.com/tmc/grpc-websocket-proxy v0.0.0-20200122045848-3419fae592fc // indirect
 	github.com/ugorji/go v1.1.7 // indirect
 	go.etcd.io/bbolt v1.3.3 // indirect
